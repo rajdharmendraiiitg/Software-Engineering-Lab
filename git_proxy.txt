@@ -1,0 +1,7 @@
+When git returns http error 407 from proxy after CONNECT
+
+Step 1: git config --global http.proxy http://username:password@proxiURL:proxiPort
+
+Step 2: git config --global http.sslVerify false
+
+Step 3: git clone https://github.com/someUser/someRepo.git
